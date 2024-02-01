@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    password: salting
+
+test:
+  deneme: ENC(W/xcfBazCq26jkcpWz2XyZlZuWlaaalw)
